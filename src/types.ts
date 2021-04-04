@@ -16,7 +16,9 @@ export type estudantes = {
     id: string,
     nome: string,
     email: string,
-    data_nascimento: Date
+    data_nascimento: Date,
+    hobbies: string
+    turma_id: number
 }
 
 export type professores = {
@@ -24,6 +26,7 @@ export type professores = {
     nome: string,
     email: string,
     data_nascimento: Date,
+    turma_id: number
 }
 
 export type especialidades = {
