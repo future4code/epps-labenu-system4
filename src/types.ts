@@ -38,3 +38,13 @@ export type hobbies = {
     id: string,
     nome: string,
 }
+
+export type atualizaEstudantes = {
+    estudante_id: string,
+    turma_id: number
+}
+
+export type atualizaProfessor = {
+    professor_id: string,
+    turma_id: number
+}
